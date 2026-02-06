@@ -4,33 +4,25 @@ Electronic Program Guide (EPG) untuk Malaysia OTT streaming services.
 
 ---
 
-## Unified Malaysia EPG (Disyorkan)
+## EPG Links (2-Link Setup untuk Loading Pantas)
 
-Gabungan **Astro + Sooka + Unifi TV** dalam satu fail EPG yang compact (2 hari).
+Gunakan **kedua-dua** link di bawah dalam IPTV player anda untuk loading optimum.
 
-### Quick Copy Link
+### 1. Astro + Sooka EPG
 
 ```
-https://cdn.jsdelivr.net/gh/mss-col/epg/unified_my_epg.xml
+https://cdn.jsdelivr.net/gh/mss-col/epg/astro_epg.xml
 ```
-
-> **Tip:** Klik butang copy di sebelah kanan code block untuk copy link terus.
 
 | Item | Keterangan |
 |------|------------|
 | Format | XMLTV (.xml) |
 | Update | Setiap hari (auto) |
 | Coverage | 2 hari ke hadapan |
-| Channels | 230+ saluran (Astro + Sooka + Unifi TV) |
-| Saiz | ~5 MB (compact, 2 hari sahaja) |
+| Channels | 170+ saluran (Astro + Sooka) |
+| Saiz | ~3.5 MB (trimmed dari 7 hari → 2 hari) |
 
----
-
-## Unifi TV EPG (Sahaja)
-
-Jika anda hanya perlukan EPG untuk saluran Unifi TV sahaja.
-
-### Quick Copy Link
+### 2. Unifi TV EPG
 
 ```
 https://cdn.jsdelivr.net/gh/mss-col/epg/unifi_epg.xml
@@ -46,11 +38,23 @@ https://cdn.jsdelivr.net/gh/mss-col/epg/unifi_epg.xml
 
 ---
 
+## Kenapa 2 Link?
+
+| | 1 Link (Unified) | 2 Link (Recommended) |
+|---|---|---|
+| Loading | 60-80+ saat | **10-15 saat** |
+| Sebab | Sequential download + parse | Parallel download + parse |
+| Saiz total | ~5 MB (1 file) | ~4.4 MB (2 file, parallel) |
+
+> IPTV player (OTT Navigator, TiviMate, dll.) download & parse multiple EPG sources secara **serentak**. 2 file kecil lebih pantas dari 1 file besar.
+
+---
+
 ## Cara Penggunaan
 
-1. Copy link EPG di atas (Unified disyorkan)
-2. Paste dalam aplikasi IPTV player anda (OTT Navigator, Tivimate, IPTV Smarters, Kodi, dll.)
-3. Set EPG source kepada link tersebut
+1. Copy **kedua-dua** link EPG di atas
+2. Paste dalam aplikasi IPTV player anda (OTT Navigator, TiviMate, IPTV Smarters, Kodi, dll.)
+3. Tambah sebagai 2 EPG source yang berasingan
 4. Refresh/reload EPG dalam player
 
 ---
