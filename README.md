@@ -11,7 +11,7 @@ Gunakan **kedua-dua** link di bawah dalam IPTV player anda untuk loading optimum
 ### 1. Astro + Sooka EPG
 
 ```
-https://cdn.jsdelivr.net/gh/mss-col/epg/astro_epg.xml
+https://cdn.jsdelivr.net/gh/mss-col/epg@main/astro_epg.xml
 ```
 
 | Item | Keterangan |
@@ -25,7 +25,7 @@ https://cdn.jsdelivr.net/gh/mss-col/epg/astro_epg.xml
 ### 2. Unifi TV EPG
 
 ```
-https://cdn.jsdelivr.net/gh/mss-col/epg/unifi_epg.xml
+https://cdn.jsdelivr.net/gh/mss-col/epg@main/unifi_epg.xml
 ```
 
 | Item | Keterangan |
