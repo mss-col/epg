@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generated-by="Unifi EPG Updater - 06-02-2026 07:23">
+<tv generated-by="Unifi EPG Updater - 06-02-2026 14:55">
     <channel id="118.unifi">
         <display-name lang="en">Inspirasi</display-name>
         <icon src="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/571B75B0-7857-425F-BB88-9D8E12E7903B/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web"/>
@@ -1014,7 +1014,7 @@
     </programme>
     <programme start="20260206090300 +0800" stop="20260206100300 +0800" channel="602.unifi">
         <title lang="en">Witness</title>
-        <desc lang="en">Inspirational and provocative stories providing a fresh and informative insight into the world's key events as they impact on the lives of ordinary people.</desc>
+        <desc lang="en">Struggling with severe loneliness, people in Japan turn to an online chat service for mental health support and social connection.</desc>
     </programme>
     <programme start="20260206090300 +0800" stop="20260206093300 +0800" channel="610.unifi">
         <title lang="en">The World Today</title>
@@ -1080,9 +1080,9 @@
         <title lang="en">BARBAPAPA - One Big Happy Family!</title>
         <desc lang="en">Barbidur and Barbalala become little rebels.  But who are the Barbapapa?</desc>
     </programme>
-    <programme start="20260206091500 +0800" stop="20260206094500 +0800" channel="122.unifi">
-        <title lang="en">Border Towns of Sarawak</title>
-        <desc lang="en">Documentary filmmaker Yusmal Ghazali explores borderlands, immersing in local life, meeting officials, villagers, entrepreneurs. Revealing history, traits, economy, tourism, post-pandemic challenges.</desc>
+    <programme start="20260206091500 +0800" stop="20260206093000 +0800" channel="122.unifi">
+        <title lang="en">Lifelong Learning</title>
+        <desc lang="en">Lifelong Learning merupakan sebuah rancangan realiti yang membawakan kisah inspirasi serta pengalaman daripada individu yang mempunyai latar belakang yang berbeza.</desc>
     </programme>
     <programme start="20260206091500 +0800" stop="20260206101000 +0800" channel="502.unifi">
         <title lang="en">Becoming Elephant: the Orphans of Reteti</title>
@@ -1167,6 +1167,10 @@
     <programme start="20260206093000 +0800" stop="20260206100000 +0800" channel="113.unifi">
         <title lang="en">Tim Mama</title>
         <desc lang="en">Qistina sakit hati bila tengok Amer makin rapat dengan Shikin. Lalu dia sebarkan video mereka berdua dengan kata-kata mengejek, Shikin sukakan anak ikan. Ini membuatkan Shikin mengamuk dan tuduh Amer yang sebarkan video itu. Shikin tak nak berkawan dengan Amer lagi. ini membuatkan Amer bengang dan semakin yakin bahawa itu adalah kerja Qistina.</desc>
+    </programme>
+    <programme start="20260206093000 +0800" stop="20260206094500 +0800" channel="122.unifi">
+        <title lang="en">Badminton Asia Team Championships Highlights</title>
+        <desc lang="en">Catch the latest Highlights of Badminton Asia Team Championships 2026, Qingdao, China.</desc>
     </programme>
     <programme start="20260206093000 +0800" stop="20260206095500 +0800" channel="451.unifi">
         <title lang="en">Impractical Jokers</title>
@@ -1256,9 +1260,9 @@
         <title lang="en">GREAT TIMES</title>
         <desc lang="en">Thian Yi memberitahu Chee Qian bahawa Shu Shu sudah tahu dia bermalam di kediamannya. Keputusannya Chee Qian tentang perceraiannya dengan Shu Shu tidak berubah. Jia Mei bertemu Mei Mum yang mirip Xing Mei.</desc>
     </programme>
-    <programme start="20260206094500 +0800" stop="20260206100000 +0800" channel="122.unifi">
-        <title lang="en">Lifelong Learning</title>
-        <desc lang="en">Lifelong Learning merupakan sebuah rancangan realiti yang membawakan kisah inspirasi serta pengalaman daripada individu yang mempunyai latar belakang yang berbeza.</desc>
+    <programme start="20260206094500 +0800" stop="20260206120000 +0800" channel="122.unifi">
+        <title lang="en">(L) Badminton Asia Team Championships 2026</title>
+        <desc lang="en">Catch live of The Badminton Asia Team Championship 2026, Qingdao, China, features top Asian nations battling in exciting team matches for glory.</desc>
     </programme>
     <programme start="20260206094500 +0800" stop="20260206114000 +0800" channel="412.unifi">
         <title lang="en">The Golden Compass</title>
@@ -1352,10 +1356,6 @@
         <title lang="en">Ad Dhuha</title>
         <desc lang="en">Kompilasi doa, zikir dan bacaan al quran berkaitan Dhuha</desc>
     </programme>
-    <programme start="20260206100000 +0800" stop="20260206100500 +0800" channel="122.unifi">
-        <title lang="en">(DL) TVS Ringkas</title>
-        <desc lang="en">TVS Ringkas brings the latest breaking news, offering quick and essential updates from both within the country and around the globe.</desc>
-    </programme>
     <programme start="20260206100000 +0800" stop="20260206110000 +0800" channel="141.unifi">
         <title lang="en">Melukis Senja</title>
         <desc lang="en">Senja, seorang gadis yang baru sahaja memasuki sekolah barunya. Dia merupakan seorang pemain ice skating yang mahir. Namun, malangnya, suatu hari dia kalah dalam sebuah pertandingan kerana melihat sebuah anak patung Teddy Bear, yang menyebabkan dia trauma. Masa kanak-kanak Senja, di mana adiknya tenggelam dengan anak patung Teddy Bear kesayangannya, telah menyebabkan trauma padanya hingga kini. Senja akhirnya dibawa ke pakar psikiatri.</desc>
@@ -1407,10 +1407,6 @@
     <programme start="20260206100500 +0800" stop="20260206103000 +0800" channel="101.unifi">
         <title lang="en">Geng Uwais</title>
         <desc lang="en">Program animasi kanak-kanak tentang Uwais, Aisyah, Ahmad dan Sadiq di padang pasir, memaparkan kerjasama rakan-rakan ini menyelesaikan masalah dengan sabar, tolak ansur dan nilai murni sejati luhur.</desc>
-    </programme>
-    <programme start="20260206100500 +0800" stop="20260206101500 +0800" channel="122.unifi">
-        <title lang="en">Badminton Asia Team Championships Highlights</title>
-        <desc lang="en">Catch the latest Highlights of Badminton Asia Team Championships 2026, Qingdao, China.</desc>
     </programme>
     <programme start="20260206100500 +0800" stop="20260206103500 +0800" channel="213.unifi">
         <title lang="en">60 Delicacies For Guests &amp; What's On Today</title>
@@ -1483,10 +1479,6 @@
     <programme start="20260206101100 +0800" stop="20260206102000 +0800" channel="553.unifi">
         <title lang="en">Stan Can</title>
         <desc lang="en">There are leaves all over the place, Stanley tries to gather them up in his van with his leaf blower, but it is harder than he thought and fills Myrtle's house with them instead.</desc>
-    </programme>
-    <programme start="20260206101500 +0800" stop="20260206104500 +0800" channel="122.unifi">
-        <title lang="en">Jom Camping</title>
-        <desc lang="en">Program travelog yang meneroka pelbagai bentuk dan jenis perkhemahan berbeza selain berjalan ke lokasi-lokasi perkhemahan di negeri Sarawak bersama dua anak jati Sarawak, El Baharin dan Anaz Zawawi.</desc>
     </programme>
     <programme start="20260206101500 +0800" stop="20260206110000 +0800" channel="235.unifi">
         <title lang="en">On the Way</title>
@@ -1602,7 +1594,7 @@
     </programme>
     <programme start="20260206103300 +0800" stop="20260206110300 +0800" channel="602.unifi">
         <title lang="en">The Bottom Line</title>
-        <desc lang="en">Al Jazeera English gets to the bottom line on US politics and policies and how they affect the world.</desc>
+        <desc lang="en">Drop Site news journalist Sharif Abdel Kouddous explains Trump's plans to build a &quot;New Gaza.&quot;</desc>
     </programme>
     <programme start="20260206103300 +0800" stop="20260206110300 +0800" channel="610.unifi">
         <title lang="en">World Insight with Tian Wei</title>
@@ -1660,10 +1652,6 @@
         <title lang="en">Chowder</title>
         <desc lang="en">Chowder gives Gazpacho a hand in preparing for his big comedy debut. But Chowder's poor penmanship threatens to turn the situation from funny to failure.</desc>
     </programme>
-    <programme start="20260206104500 +0800" stop="20260206120000 +0800" channel="122.unifi">
-        <title lang="en">(L) Badminton Asia Team Championships 2026</title>
-        <desc lang="en">Catch live of The Badminton Asia Team Championship 2026, Qingdao, China, features top Asian nations battling in exciting team matches for glory.</desc>
-    </programme>
     <programme start="20260206104500 +0800" stop="20260206123000 +0800" channel="474.unifi">
         <title lang="en">The Last Dragonslayer</title>
         <desc lang="en">In a world where magic is waning and technology prevails, 15-year-old Jennifer Strange runs a magician employment agency and discovers the last dragon is being hunted.</desc>
@@ -1718,7 +1706,7 @@
     </programme>
     <programme start="20260206110000 +0800" stop="20260206113000 +0800" channel="101.unifi">
         <title lang="en">Usratun Nisa</title>
-        <desc lang="en">Saksikan program majalah wanita islamik yang menarik ini khas untuk anda</desc>
+        <desc lang="en">Keberanian wanita untuk berkata tidak untuk menghalang dari terus terpendam dalam masalah rumahtangga</desc>
     </programme>
     <programme start="20260206110000 +0800" stop="20260206120000 +0800" channel="102.unifi">
         <title lang="en">Saya Tunggu Awak</title>
@@ -2268,7 +2256,7 @@
         <title lang="en">Promo / PSA / Kapsul</title>
         <desc lang="en">Promo / PSA / Kapsul</desc>
     </programme>
-    <programme start="20260206121500 +0800" stop="20260206160000 +0800" channel="122.unifi">
+    <programme start="20260206121500 +0800" stop="20260206140000 +0800" channel="122.unifi">
         <title lang="en">(L) Badminton Asia Team Championships 2026</title>
         <desc lang="en">Catch live of The Badminton Asia Team Championship 2026, Qingdao, China, features top Asian nations battling in exciting team matches for glory.</desc>
     </programme>
@@ -2378,7 +2366,7 @@
     </programme>
     <programme start="20260206123300 +0800" stop="20260206130300 +0800" channel="602.unifi">
         <title lang="en">The Stream</title>
-        <desc lang="en">Powered by social media, The Stream brings fresh perspectives and new voices, beyond the headlines.</desc>
+        <desc lang="en">Today on The Stream: Handmade crafts are disappearing under mass production. What is lost when everything is made fast, cheap, and at scale?</desc>
     </programme>
     <programme start="20260206123300 +0800" stop="20260206130300 +0800" channel="612.unifi">
         <title lang="en">The European debrief</title>
@@ -2496,9 +2484,9 @@
         <title lang="en">Dear Hyeri</title>
         <desc lang="en">Identiti Hye-ri semakin jelas. Dia menjalani kehidupan berasingan sebagai penjaga tempat letak kereta dan mula rapat dengan Kang Joo-yeon, yang tidak tahu siapa dia sebenarnya. Eun-ho mula berjumpa psikiatri untuk memahami keadaannya.</desc>
     </programme>
-    <programme start="20260206130000 +0800" stop="20260206140000 +0800" channel="101.unifi">
-        <title lang="en">LIVE : SOLAT JUMAAT</title>
-        <desc lang="en">Ikuti Solat Jumaat dan Khutbah Jumaat.</desc>
+    <programme start="20260206130000 +0800" stop="20260206131100 +0800" channel="101.unifi">
+        <title lang="en">Promo / PSA / Kapsul</title>
+        <desc lang="en">Promo / PSA / Kapsul</desc>
     </programme>
     <programme start="20260206130000 +0800" stop="20260206140000 +0800" channel="102.unifi">
         <title lang="en">My Love In The Countryside</title>
@@ -2655,6 +2643,10 @@
     <programme start="20260206131000 +0800" stop="20260206133500 +0800" channel="513.unifi">
         <title lang="en">Battle Of The Bling</title>
         <desc lang="en">Todrick Hall and Kim Myles hunt for the blingiest home. From a Greek-inspired villa to a pirate's den, families battle for a place in the final</desc>
+    </programme>
+    <programme start="20260206131100 +0800" stop="20260206140000 +0800" channel="101.unifi">
+        <title lang="en">LIVE : SOLAT JUMAAT</title>
+        <desc lang="en">Ikuti Solat Jumaat dan Khutbah Jumaat.</desc>
     </programme>
     <programme start="20260206131500 +0800" stop="20260206150500 +0800" channel="411.unifi">
         <title lang="en">Grudge Match</title>
@@ -2900,7 +2892,7 @@
         <title lang="en">Lubuk</title>
         <desc lang="en">Rancangan khas yang akan membawa anda ke tempat menarik dari sungai hinggalah ke tempat tersembunyi untuk memancing. Kali ni, kita ke lubuk memancing di Lombong di Air Kuning Teluk Intan, Perak bersama Joe Aziz.</desc>
     </programme>
-    <programme start="20260206140000 +0800" stop="20260206153000 +0800" channel="101.unifi">
+    <programme start="20260206140000 +0800" stop="20260206150000 +0800" channel="101.unifi">
         <title lang="en">Forum Perdana Ehwal Islam 2026</title>
         <desc lang="en">Ikuti perbincangan mengenai permasalahan berkaitan agama dan isu semasa.</desc>
     </programme>
@@ -2927,6 +2919,10 @@
     <programme start="20260206140000 +0800" stop="20260206150000 +0800" channel="114.unifi">
         <title lang="en">Peristiwa Ramadan</title>
         <desc lang="en">Program teater muzikal yang membawa penonton menelusuri peristiwa-peristiwa yang berlaku sewaktu bulan Ramadan, ketika zaman Nabi Muhammad S.A.W</desc>
+    </programme>
+    <programme start="20260206140000 +0800" stop="20260206140500 +0800" channel="122.unifi">
+        <title lang="en">(DL) TVS Ringkas</title>
+        <desc lang="en">TVS Ringkas brings the latest breaking news, offering quick and essential updates from both within the country and around the globe.</desc>
     </programme>
     <programme start="20260206140000 +0800" stop="20260206160000 +0800" channel="128.unifi">
         <title lang="en">Magika</title>
@@ -3008,6 +3004,10 @@
         <title lang="en">DW News</title>
         <desc lang="en">DW News</desc>
     </programme>
+    <programme start="20260206140500 +0800" stop="20260206141500 +0800" channel="122.unifi">
+        <title lang="en">TVS Music</title>
+        <desc lang="en">TVS Music is a compilation of songs that celebrates the rich and diverse musical talents of the region, featuring a mix of contemporary hits and culturally inspired tracks from local artists.</desc>
+    </programme>
     <programme start="20260206140500 +0800" stop="20260206154500 +0800" channel="211.unifi">
         <title lang="en">The Genius Paik 2</title>
         <desc lang="en">Top Korean restaurateur chef Paik is back with a team of A-list celebrities, accepting the challenge of starting a Korean restaurant and introducing Korean cuisine to the globe in an unfamiliar country.</desc>
@@ -3059,6 +3059,10 @@
     <programme start="20260206141000 +0800" stop="20260206144000 +0800" channel="472.unifi">
         <title lang="en">MOBILE SUIT GUNDAM: THE WITCH FROM MERCURY</title>
         <desc lang="en">Suletta has agreed to a duel with Elan, but she can't hide her bewilderment at Elan's sudden change of attitude.</desc>
+    </programme>
+    <programme start="20260206141500 +0800" stop="20260206143000 +0800" channel="122.unifi">
+        <title lang="en">Orang Kita</title>
+        <desc lang="en">Orang Kita, bersama MINTRED, memaparkan kisah inspirasi usahawan tempatan. Rancangan ini menyerlahkan semangat juang, ketekunan, dan inovasi yang membawa kejayaan, memberi inspirasi kepada usahawan baru dengan keyakinan.</desc>
     </programme>
     <programme start="20260206141500 +0800" stop="20260206151000 +0800" channel="512.unifi">
         <title lang="en">Bake Off: The Professionals</title>
@@ -3127,6 +3131,10 @@
     <programme start="20260206143000 +0800" stop="20260206150000 +0800" channel="107.unifi">
         <title lang="en">PRASEKOLAH 24/25</title>
         <desc lang="en">Program ini ialah kandungan pengajaran dan pembelajaran (PdP) bagi murid Prasekolah berdasarkan sukatan pelajaran di sekolah yang menerapkan pelbagai elemen kemahiran, penyampaian ilmu dan juga nilai murni.</desc>
+    </programme>
+    <programme start="20260206143000 +0800" stop="20260206150000 +0800" channel="122.unifi">
+        <title lang="en">Borneo's Unique Building</title>
+        <desc lang="en">Siri dokumentari yang memfokuskan kepada senibina bangunan dan infrastruktur di Sarawak, yang menampilkan dua binaan iaitu satu senibina moden/kontemporari dan satu lagi senibina tradisi/kolonial.</desc>
     </programme>
     <programme start="20260206143000 +0800" stop="20260206160000 +0800" channel="141.unifi">
         <title lang="en">Perjuangan Seorang Kakak Yang Mencari Kebenaran Adiknya Yang Tewas Terbakar</title>
@@ -3264,6 +3272,10 @@
         <title lang="en">Aroma Masak</title>
         <desc lang="en">Episod ini Mimi berkongsi resepi Ayam Mentega Telur Masin, Daging Masak Merah &amp; Roti John sambil ditemani oleh Amira Syahira yang juga dikenali sebagai Amira Drummer.</desc>
     </programme>
+    <programme start="20260206150000 +0800" stop="20260206150500 +0800" channel="101.unifi">
+        <title lang="en">LIVE : BERITA SEMASA</title>
+        <desc lang="en">Berita Semasa dalam dan luar negara</desc>
+    </programme>
     <programme start="20260206150000 +0800" stop="20260206170000 +0800" channel="102.unifi">
         <title lang="en">Primadona Yang Hilang</title>
         <desc lang="en">Drama kemasyarakatan yang memaparkan hubungan kekeluargaan, persahabatan dan percintaan.</desc>
@@ -3295,6 +3307,10 @@
     <programme start="20260206150000 +0800" stop="20260206170000 +0800" channel="121.unifi">
         <title lang="en">Jeritan Batinku</title>
         <desc lang="en">Fauziah, seorang anak yatim yang sering didera ibu saudaranya, Ramlah, nekad melarikan diri ke bandar. Tindakannya itu telah membawanya ke Sharif yang bertindak menjadikannya sebagai anak angkat. Namun, kehadiran Fauziah tidak disenangi Mahani. Sikap cemburu Mahani hanya membawa padah kepada dirinya. Selain itu, perasaan serba salah Ramlah menyebabkannya mengalami tekanan jiwa. Mampukah Fauziah mengecapi kebahagiaan?</desc>
+    </programme>
+    <programme start="20260206150000 +0800" stop="20260206150500 +0800" channel="122.unifi">
+        <title lang="en">(DL) TVS Highlight</title>
+        <desc lang="en">TVS Highlight showcases the most current and important news in a compact, well-rounded format, featuring both local and international updates with thorough and succinct reporting.</desc>
     </programme>
     <programme start="20260206150000 +0800" stop="20260206180000 +0800" channel="338.unifi">
         <title lang="en">Bad Boy</title>
@@ -3343,6 +3359,14 @@
     <programme start="20260206150300 +0800" stop="20260206151800 +0800" channel="642.unifi">
         <title lang="en">DW News</title>
         <desc lang="en">DW News</desc>
+    </programme>
+    <programme start="20260206150500 +0800" stop="20260206153000 +0800" channel="101.unifi">
+        <title lang="en">Logika Alam</title>
+        <desc lang="en">Sebuah dokumentari yang menyingkap misteri alam semesta dan seandainya fitrah alam berubah.</desc>
+    </programme>
+    <programme start="20260206150500 +0800" stop="20260206151500 +0800" channel="122.unifi">
+        <title lang="en">TVS Music</title>
+        <desc lang="en">TVS Music is a compilation of songs that celebrates the rich and diverse musical talents of the region, featuring a mix of contemporary hits and culturally inspired tracks from local artists.</desc>
     </programme>
     <programme start="20260206150500 +0800" stop="20260206160500 +0800" channel="212.unifi">
         <title lang="en">STEP INTO THE PAST, A</title>
@@ -3408,6 +3432,10 @@
         <title lang="en">The Casagrandes</title>
         <desc lang="en">Ronnie Anne begs Tio Carlos to teach her some moves when she finds out he is a famous skateboarder.  In order to buy a new skateboard, Ronnie Anne and Sid start a dog-walking business.</desc>
     </programme>
+    <programme start="20260206151500 +0800" stop="20260206153000 +0800" channel="122.unifi">
+        <title lang="en">Fail 420</title>
+        <desc lang="en">A crime documentary on scam cases reported to Sarawak's Police Commercial Unit, revealing modus operandi, victim profiles, true-event reenactments, and expert advice on detecting and avoiding scams.</desc>
+    </programme>
     <programme start="20260206151500 +0800" stop="20260206171000 +0800" channel="412.unifi">
         <title lang="en">Mamma Mia! Here We Go Again</title>
         <desc lang="en">Five years after the events of Mamma Mia! (2008), Sophie prepares for the grand reopening of the Hotel Bella Donna as she learns more about her mother's past.</desc>
@@ -3464,7 +3492,7 @@
         <title lang="en">The Equalizer S2 EP15</title>
         <desc lang="en">Kerja vigilante McCall merumitkan lagi kehidupan peribadinya apabila dia terpaksa meminta bantuan bekas suaminya, Dr. Miles Fulton, untuk membantu mangsa tembakan, salah seorang daripada dua wanita yang diburu pencuri selepas mereka menyaksikan rompakan.</desc>
     </programme>
-    <programme start="20260206153000 +0800" stop="20260206163000 +0800" channel="101.unifi">
+    <programme start="20260206153000 +0800" stop="20260206160000 +0800" channel="101.unifi">
         <title lang="en">Kalam Wahyu (MTHQA) Hafazan Antarabangsa 2024</title>
         <desc lang="en">Saksikan kompilasi bacaan peserta-peserta hafazan dalam pertandingan Majlis Tilawah &amp; Hafazan Al-Quran Peringkat Antarabangsa. Hayati bacaan Al-Quran.</desc>
     </programme>
@@ -3479,6 +3507,10 @@
     <programme start="20260206153000 +0800" stop="20260206160000 +0800" channel="113.unifi">
         <title lang="en">Periuk Belanga</title>
         <desc lang="en">Episod kali ini bersama artis jemputan Marc Syahmie yang akan menyajikan “Spageti Karbonara” makanan berkonsepkan outdoor dan akan beraktiviti serta berkhemah di sebuah tapak perkhemahan yang dikelilingi oleh hutan.</desc>
+    </programme>
+    <programme start="20260206153000 +0800" stop="20260206160000 +0800" channel="122.unifi">
+        <title lang="en">From Malaysia With Love</title>
+        <desc lang="en">Tiga Pengacara, Chef Adu Amran, Fiza Frizzy dan Kelvin Yap akan menyelami dan merasai pengalaman kehidupan masyarakat lokal dari pelbagai etnik.</desc>
     </programme>
     <programme start="20260206153000 +0800" stop="20260206162500 +0800" channel="502.unifi">
         <title lang="en">Becoming Elephant: the Orphans of Reteti</title>
@@ -3522,7 +3554,7 @@
     </programme>
     <programme start="20260206153300 +0800" stop="20260206160300 +0800" channel="602.unifi">
         <title lang="en">Bangladesh - A Democratic Test</title>
-        <desc lang="en">As Bangladesh nears its first election since Sheikh Hasina's overthrow, Sreenivasan Jain interviews key figures on what's at stake.</desc>
+        <desc lang="en">Sreenivasan Jain challenges BNP secretary Mirza Fakhrul on the whether the party and its leader really represent change after years of political wilderness.</desc>
     </programme>
     <programme start="20260206153300 +0800" stop="20260206160300 +0800" channel="610.unifi">
         <title lang="en">Sports Scene</title>
@@ -3611,6 +3643,10 @@
     <programme start="20260206160000 +0800" stop="20260206180000 +0800" channel="116.unifi">
         <title lang="en">Titi Kayu</title>
         <desc lang="en">Alim, seorang pemuda Cina Peranakan yang disenangi penduduk kampung atas sikap ringan tulang, mengorbankan masa dan tenaga demi membina titi kayu bersama seorang budak bernama Umar, meskipun tidak mendapat sokongan ketua kampung.</desc>
+    </programme>
+    <programme start="20260206160000 +0800" stop="20260206160500 +0800" channel="101.unifi">
+        <title lang="en">LIVE : BERITA SEMASA</title>
+        <desc lang="en">Berita Semasa dalam dan luar negara</desc>
     </programme>
     <programme start="20260206160000 +0800" stop="20260206163000 +0800" channel="103.unifi">
         <title lang="en">BERSAMAMU 2025/2026</title>
@@ -3707,6 +3743,10 @@
     <programme start="20260206160300 +0800" stop="20260206161800 +0800" channel="642.unifi">
         <title lang="en">DW News</title>
         <desc lang="en">DW News</desc>
+    </programme>
+    <programme start="20260206160500 +0800" stop="20260206163000 +0800" channel="101.unifi">
+        <title lang="en">Kalam Wahyu (MTHQA) Hafazan Antarabangsa 2024</title>
+        <desc lang="en">Saksikan kompilasi bacaan peserta-peserta hafazan dalam pertandingan Majlis Tilawah &amp; Hafazan Al-Quran Peringkat Antarabangsa. Hayati bacaan Al-Quran.</desc>
     </programme>
     <programme start="20260206160500 +0800" stop="20260206161500 +0800" channel="122.unifi">
         <title lang="en">TVS Fillers</title>
@@ -3925,8 +3965,8 @@
         <desc lang="en">The latest news from the BBC.</desc>
     </programme>
     <programme start="20260206163300 +0800" stop="20260206170300 +0800" channel="602.unifi">
-        <title lang="en">Talk to Al Jazeera</title>
-        <desc lang="en">One of the world's leading ecologists warns the fight isn't just about climate change, it's about saving the living fabric of life itself.</desc>
+        <title lang="en">UpFront</title>
+        <desc lang="en">Marc Lamont Hill asks scholar and Senior Analyst at the National Security Archives Peter Kornbluh whether regime change in Havana is next on Trump's agenda.</desc>
     </programme>
     <programme start="20260206163300 +0800" stop="20260206170300 +0800" channel="612.unifi">
         <title lang="en">Wake up Europe</title>
@@ -5353,7 +5393,7 @@
         <desc lang="en">All the big stories, live as they happen, presented by Lucy Hockings.</desc>
     </programme>
     <programme start="20260206200300 +0800" stop="20260206210300 +0800" channel="602.unifi">
-        <title lang="en">Latin America: In Th</title>
+        <title lang="en">Latin America: In The Shadow of The U.S. : Coups</title>
         <desc lang="en">Cold War shadows fall across Latin America as U.S.-backed coups shatter democracies, spark brutal dictatorships, covert operations and revolutionary resistance.</desc>
     </programme>
     <programme start="20260206200300 +0800" stop="20260206201800 +0800" channel="610.unifi">
@@ -6322,7 +6362,7 @@
     </programme>
     <programme start="20260206223300 +0800" stop="20260206230300 +0800" channel="602.unifi">
         <title lang="en">The Stream</title>
-        <desc lang="en">Powered by social media, The Stream brings fresh perspectives and new voices, beyond the headlines.</desc>
+        <desc lang="en">Today on The Stream: Handmade crafts are disappearing under mass production. What is lost when everything is made fast, cheap, and at scale?</desc>
     </programme>
     <programme start="20260206223300 +0800" stop="20260206230300 +0800" channel="610.unifi">
         <title lang="en">World Insight with Tian Wei</title>
@@ -7449,8 +7489,8 @@
         <desc lang="en">Melati mendedahkan niat sebenar dia yang ingin mengembalikan anaknya dari kematian. Dengan bantuan seorang Bomoh, Watih, Melati akan membawa pulang anaknya menggunakan darah yang dicuri daripada tetamu mudanya yang telah meninggal dunia sebelum ini. Namun, bukan anaknya sahaja yang ingin dibawa pulang. Melati telah membuat keputusan untuk membawa kembali Sigit - lelaki yang dibesarkannya, seorang lelaki yang mempunyai masa lalu yang kelam dan tragis - Melati percaya bahawa di sebalik kengerian masa lalunya, dia layak mendapat peluang kedua. Makhluk jahat yang pernah terperangkap di ruang bawah tanah didedahkan di Kusno, makhluk jahat dan jahat serta bapa Sigit. Apabila Kusno mula membunuh, dia mula menjadi lebih kuat dan mula menyerupai bentuk manusianya sekali lagi. Kusno mempunyai satu misi - untuk memusnahkan Melati. Tetapi Kusno tidak bersendirian. Dengan menggunakan kuasanya yang semakin meningkat, dia memihak kepada bentuk jahat lelaki yang membunuh ibu Melati pada tahun 1900-an - Pemburu.</desc>
     </programme>
     <programme start="20260207013000 +0800" stop="20260207030000 +0800" channel="101.unifi">
-        <title lang="en">Konsert Minggu Ini (M8) 2023</title>
-        <desc lang="en">Saksikan konsert terbitan Unit Hiburan TV, RTM.</desc>
+        <title lang="en">Konsert Minggu Ini (2) 2019</title>
+        <desc lang="en">Rancangan hiburan terbitan Unit Hiburan TV RTM yang menampilkan persembahan artis-artis tempatan.</desc>
     </programme>
     <programme start="20260207013000 +0800" stop="20260207020000 +0800" channel="102.unifi">
         <title lang="en">Cuci-Cuci Services</title>
@@ -8438,7 +8478,7 @@
     </programme>
     <programme start="20260207040000 +0800" stop="20260207043000 +0800" channel="101.unifi">
         <title lang="en">Usratun Nisa</title>
-        <desc lang="en">Saksikan program majalah wanita islamik yang menarik ini khas untuk anda</desc>
+        <desc lang="en">Keberanian wanita untuk berkata tidak untuk menghalang dari terus terpendam dalam masalah rumahtangga</desc>
     </programme>
     <programme start="20260207040000 +0800" stop="20260207060000 +0800" channel="102.unifi">
         <title lang="en">Primadona Yang Hilang</title>
@@ -8502,7 +8542,7 @@
     </programme>
     <programme start="20260207040300 +0800" stop="20260207050300 +0800" channel="602.unifi">
         <title lang="en">Al Jazeera World</title>
-        <desc lang="en">A series of one-hour documentaries showcasing films from across the Al Jazeera Network.</desc>
+        <desc lang="en">A French nurse and an Italian photographer who devoted their lives to fighting for the rights of the Palestinian people but ended up paying the ultimate price.</desc>
     </programme>
     <programme start="20260207040300 +0800" stop="20260207043300 +0800" channel="610.unifi">
         <title lang="en">The World Today</title>
@@ -9001,8 +9041,8 @@
         <desc lang="en">Hani Fadzil bersama Neera Azizi akan menyediakan 2 menu istimewa iaitu Butter Milk Chicken &amp; Tauhu Begedil Sumbat.</desc>
     </programme>
     <programme start="20260207053000 +0800" stop="20260207060000 +0800" channel="101.unifi">
-        <title lang="en">Bacaan Ar Rahman/ Al Mulk/ Yassin/ Al Waqiah</title>
-        <desc lang="en">Bacaan Ar Rahman/ Al Mulk/ Yassin/ Al Waqiah</desc>
+        <title lang="en">Surah Al Mulk (2023)</title>
+        <desc lang="en">Bacaan surah Al Mulk.</desc>
     </programme>
     <programme start="20260207053000 +0800" stop="20260207060000 +0800" channel="122.unifi">
         <title lang="en">Aroma Puncak Borneo</title>
