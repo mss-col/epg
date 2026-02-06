@@ -52,6 +52,58 @@
             font-weight: 400;
         }
 
+        /* EPG Selector */
+        .epg-selector {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .epg-selector-btn {
+            flex: 1;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 2px solid rgba(99, 102, 241, 0.2);
+            border-radius: 12px;
+            color: #a3a3a3;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .epg-selector-btn:hover {
+            border-color: rgba(99, 102, 241, 0.4);
+            color: #e5e5e5;
+        }
+
+        .epg-selector-btn.active {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(167, 139, 250, 0.08));
+            border-color: rgba(99, 102, 241, 0.6);
+            color: #f5f5f5;
+        }
+
+        .epg-selector-btn .sel-title {
+            display: block;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+
+        .epg-selector-btn .sel-desc {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+
+        .recommended {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: white;
+            font-size: 0.6rem;
+            padding: 2px 6px;
+            border-radius: 8px;
+            margin-left: 6px;
+            font-weight: 600;
+        }
+
         /* EPG Link Card */
         .epg-card {
             background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(167, 139, 250, 0.05) 100%);
@@ -184,16 +236,6 @@
             opacity: 0.7;
         }
 
-        .recommended {
-            background: linear-gradient(135deg, #22c55e, #16a34a);
-            color: white;
-            font-size: 0.6rem;
-            padding: 2px 6px;
-            border-radius: 8px;
-            margin-left: 6px;
-            font-weight: 600;
-        }
-
         /* CDN Info */
         .cdn-info {
             background: rgba(34, 197, 94, 0.08);
@@ -232,7 +274,7 @@
         }
 
         .cdn-benefit::before {
-            content: '\\2713';
+            content: '\2713';
             color: #22c55e;
             font-weight: bold;
         }
@@ -397,6 +439,7 @@
             .link-input { width: 100%; text-align: center; }
             .copy-btn { width: 100%; }
             .info-grid { grid-template-columns: repeat(2, 1fr); }
+            .epg-selector { flex-direction: column; }
         }
     </style>
 </head>
@@ -407,12 +450,25 @@
             <p class="subtitle">Electronic Program Guide untuk Malaysia OTT Streaming</p>
         </header>
 
+        <!-- EPG Type Selector -->
+        <div class="epg-selector">
+            <div class="epg-selector-btn active" onclick="switchEpg('unified')">
+                <span class="sel-title">Unified Malaysia EPG<span class="recommended">Disyorkan</span></span>
+                <span class="sel-desc">Astro + Sooka + Unifi TV (230+ saluran)</span>
+            </div>
+            <div class="epg-selector-btn" onclick="switchEpg('unifi')">
+                <span class="sel-title">Unifi TV EPG</span>
+                <span class="sel-desc">Unifi TV sahaja (60+ saluran)</span>
+            </div>
+        </div>
+
+        <!-- EPG Card -->
         <div class="epg-card">
             <h2>
-                Unifi TV 2.0 EPG
+                <span id="cardTitle">Unified Malaysia EPG</span>
                 <span class="badge">Live</span>
             </h2>
-            <p>XMLTV format EPG untuk Unifi TV Malaysia. Pilih jenis link dan copy untuk gunakan dalam IPTV player anda.</p>
+            <p id="cardDesc">Gabungan Astro + Sooka + Unifi TV dalam satu fail EPG compact (2 hari). Pilih jenis link dan copy untuk gunakan dalam IPTV player anda.</p>
 
             <div class="link-options">
                 <div class="link-tab" data-type="pages" onclick="switchLink('pages')">
@@ -426,7 +482,7 @@
             </div>
 
             <div class="link-box">
-                <input type="text" class="link-input" id="epgLink" value="https://cdn.jsdelivr.net/gh/mss-col/epg/unifi_epg.xml" readonly>
+                <input type="text" class="link-input" id="epgLink" value="https://cdn.jsdelivr.net/gh/mss-col/epg/unified_my_epg.xml" readonly>
                 <button class="copy-btn" onclick="copyLink()">Copy Link</button>
             </div>
 
@@ -441,7 +497,7 @@
             </div>
         </div>
 
-        <div class="info-grid">
+        <div class="info-grid" id="infoGrid">
             <div class="info-item">
                 <div class="info-value">XMLTV</div>
                 <div class="info-label">Format</div>
@@ -455,7 +511,7 @@
                 <div class="info-label">Coverage</div>
             </div>
             <div class="info-item">
-                <div class="info-value">60+</div>
+                <div class="info-value" id="channelCount">230+</div>
                 <div class="info-label">Channels</div>
             </div>
         </div>
@@ -469,7 +525,7 @@
                 </div>
                 <div class="step">
                     <div class="step-num">2</div>
-                    <div class="step-text">Paste dalam aplikasi IPTV player anda (Tivimate, IPTV Smarters, Kodi, dll.)</div>
+                    <div class="step-text">Paste dalam aplikasi IPTV player anda (OTT Navigator, Tivimate, IPTV Smarters, Kodi, dll.)</div>
                 </div>
                 <div class="step">
                     <div class="step-num">3</div>
@@ -500,7 +556,7 @@
             <div class="footer-links">
                 <a href="https://github.com/mss-col/epg">GitHub Repository</a>
                 <a href="https://github.com/mss-col">MSS-COL</a>
-                <a href="unifi_epg.xml">Direct XML Link</a>
+                <a href="unified_my_epg.xml">Direct XML Link</a>
             </div>
             <p class="copyright">
                 Diselenggara dengan <span class="heart">&#10084;</span> oleh <strong>MSS</strong> | Untuk tujuan pendidikan & penyelidikan
@@ -509,20 +565,55 @@
     </div>
 
     <script>
-        const links = {
-            pages: 'https://mss-col.github.io/epg/unifi_epg.xml',
-            cdn: 'https://cdn.jsdelivr.net/gh/mss-col/epg/unifi_epg.xml'
+        // EPG data configuration
+        const epgData = {
+            unified: {
+                title: 'Unified Malaysia EPG',
+                desc: 'Gabungan Astro + Sooka + Unifi TV dalam satu fail EPG compact (2 hari). Pilih jenis link dan copy untuk gunakan dalam IPTV player anda.',
+                file: 'unified_my_epg.xml',
+                channels: '230+',
+                pages: 'https://mss-col.github.io/epg/unified_my_epg.xml',
+                cdn: 'https://cdn.jsdelivr.net/gh/mss-col/epg/unified_my_epg.xml'
+            },
+            unifi: {
+                title: 'Unifi TV 2.0 EPG',
+                desc: 'XMLTV format EPG untuk Unifi TV Malaysia sahaja. Pilih jenis link dan copy untuk gunakan dalam IPTV player anda.',
+                file: 'unifi_epg.xml',
+                channels: '60+',
+                pages: 'https://mss-col.github.io/epg/unifi_epg.xml',
+                cdn: 'https://cdn.jsdelivr.net/gh/mss-col/epg/unifi_epg.xml'
+            }
         };
 
+        let currentEpg = 'unified';
+        let currentLinkType = 'cdn';
+
+        function switchEpg(type) {
+            currentEpg = type;
+            const data = epgData[type];
+
+            // Update selector buttons
+            document.querySelectorAll('.epg-selector-btn').forEach(btn => btn.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+
+            // Update card content
+            document.getElementById('cardTitle').textContent = data.title;
+            document.getElementById('cardDesc').textContent = data.desc;
+            document.getElementById('channelCount').textContent = data.channels;
+            document.getElementById('epgLink').value = data[currentLinkType];
+
+            // Update footer direct link
+            document.querySelector('.footer-links a:last-child').href = data.file;
+        }
+
         function switchLink(type) {
+            currentLinkType = type;
             const linkInput = document.getElementById('epgLink');
             const tabs = document.querySelectorAll('.link-tab');
             const cdnInfo = document.getElementById('cdnInfo');
 
-            // Update input value
-            linkInput.value = links[type];
+            linkInput.value = epgData[currentEpg][type];
 
-            // Update active tab
             tabs.forEach(tab => {
                 tab.classList.remove('active');
                 if (tab.dataset.type === type) {
@@ -530,7 +621,6 @@
                 }
             });
 
-            // Show/hide CDN info
             if (type === 'cdn') {
                 cdnInfo.classList.add('show');
             } else {

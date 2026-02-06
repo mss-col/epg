@@ -4,30 +4,37 @@ Electronic Program Guide (EPG) untuk Malaysia OTT streaming services.
 
 ---
 
-## Unifi TV 2.0 EPG
+## Unified Malaysia EPG (Disyorkan)
 
-XMLTV format EPG untuk Unifi TV Malaysia.
+Gabungan **Astro + Sooka + Unifi TV** dalam satu fail EPG yang compact (2 hari).
 
 ### Quick Copy Link
 
 ```
-https://raw.githubusercontent.com/mss-col/epg/main/unifi_epg.xml
+https://cdn.jsdelivr.net/gh/mss-col/epg/unified_my_epg.xml
 ```
 
 > **Tip:** Klik butang copy di sebelah kanan code block untuk copy link terus.
 
+| Item | Keterangan |
+|------|------------|
+| Format | XMLTV (.xml) |
+| Update | Setiap hari (auto) |
+| Coverage | 2 hari ke hadapan |
+| Channels | 230+ saluran (Astro + Sooka + Unifi TV) |
+| Saiz | ~5 MB (compact, 2 hari sahaja) |
+
 ---
 
-## Cara Penggunaan
+## Unifi TV EPG (Sahaja)
 
-1. Copy link EPG di atas
-2. Paste dalam aplikasi IPTV player anda (Tivimate, IPTV Smarters, Kodi, dll.)
-3. Set EPG source kepada link tersebut
-4. Refresh/reload EPG dalam player
+Jika anda hanya perlukan EPG untuk saluran Unifi TV sahaja.
 
----
+### Quick Copy Link
 
-## Maklumat
+```
+https://cdn.jsdelivr.net/gh/mss-col/epg/unifi_epg.xml
+```
 
 | Item | Keterangan |
 |------|------------|
@@ -35,7 +42,16 @@ https://raw.githubusercontent.com/mss-col/epg/main/unifi_epg.xml
 | Update | Setiap hari (auto) |
 | Coverage | 2 hari ke hadapan |
 | Channels | 60+ saluran Unifi TV |
-| Maintainer | MSS |
+| Saiz | ~900 KB |
+
+---
+
+## Cara Penggunaan
+
+1. Copy link EPG di atas (Unified disyorkan)
+2. Paste dalam aplikasi IPTV player anda (OTT Navigator, Tivimate, IPTV Smarters, Kodi, dll.)
+3. Set EPG source kepada link tersebut
+4. Refresh/reload EPG dalam player
 
 ---
 
